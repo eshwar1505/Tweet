@@ -72,12 +72,12 @@ Follow these steps to set up and run the project locally.
     python manage.py runserver
     ```
 
-The application will be accessible in your web browser at: `http://127.0.0.1:8000/`
+The application will be accessible in your web browser at: `http://127.0.0.1:8000/Tweet`
 
 ## Usage
 * **Register:** Navigate to `/register` to create a new user account.
 * **Login:** Use your credentials to log in.
-* **View Posts:** The homepage (`/`) or a dedicated feed page displays all current posts.
+* **View Posts:** The homepage (`/Tweet`) or a dedicated feed page displays all current posts.
 * **Create Posts:** Use the posting form (usually available after logging in) to submit new content.
 
 ## Future Enhancements
