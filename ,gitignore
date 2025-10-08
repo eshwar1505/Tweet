@@ -1,0 +1,42 @@
+# ------------------------------------
+# 1. Python & Virtual Environment (CRITICAL)
+# ------------------------------------
+# Virtual environment directories (where packages are installed)
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# ------------------------------------
+# 2. Security and Local Files (CRITICAL)
+# ------------------------------------
+# SQLite database file (contains local data)
+db.sqlite3
+
+# Folders for user-uploaded media and collected static assets
+# These should not be in version control.
+media/
+static_cdn/
+staticfiles/
+
+# Local settings files that might contain your SECRET_KEY or API keys
+local_settings.py
+.env
+
+# ------------------------------------
+# 3. Development, Editor, and OS Files
+# ------------------------------------
+# Logs and debugging files
+*.log
+*.sqlite3-journal
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Editor/IDE temporary files and settings
+.vscode/  # VS Code settings
+.idea/    # PyCharm/IntelliJ settings
+*.swp     # Vim swap files
